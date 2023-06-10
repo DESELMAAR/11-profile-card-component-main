@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  /* ## Colors */
+
+/* ### Primary */
+
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+
+/* ### Neutral */
+
+--Dark-gray: hsl(0, 0%, 59%);
+
+--font: 'Kumbh Sans', sans-serif;
+}
+body{
+  font-family: var(--font);
+
+  
+
+  background:url(./images/bg-pattern-top.svg) no-repeat     , var(--Dark-cyan) url(./images/bg-pattern-bottom.svg) no-repeat   90% bottom;
+  
+  background-size:cover;
+  height: 100vh;
+}
+body{
+  display: grid;
+  place-items: center;
+align-content: center;
+}
+.card{
+  width: 350px;
+  background: url(images/bg-pattern-card.svg) no-repeat  whitesmoke ;
+  padding-top: 90px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  place-items: center;
+  border-radius: 1em;
+}
+.photo{
+  border-radius: 30em;
+  border: 0.3em white solid;
+  margin-bottom: 1.5em;
+}
+.name-age{
+  font-size: 18px;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+.span26{
+  color: var(--Dark-gray);
+  font-weight: 400;
+  margin-left: 5px;
+}
+.london{
+  font-size: 15px;
+  color: var(--Dark-gray);
+}
+.horizontal{
+  border: 1px solid rgb(233, 229, 229);
+  width: 100%;
+  border-bottom: 0;
+  margin: 1.7em 0;
+
+}
+.statistic{
+  width: 80%;
+  display: flex;
+justify-content: space-between;
+margin-bottom: 1.5em;
+}
+.num{
+  margin-bottom: 0.4em;
+  font-size: 18px;
+  font-weight: 700;
+}
+.followers{
+  font-size: 11px;
+  color: var(--Dark-gray);
+  font-weight: 400;
+}
