@@ -85,3 +85,9 @@ margin-bottom: 1.5em;
   color: var(--Dark-gray);
   font-weight: 400;
 }
+
+@media(max-width:350px){
+.card{
+ width: 300px;
+}
+}
